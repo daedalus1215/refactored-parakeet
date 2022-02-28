@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import com.example.demo.category_service_project.AllCategoriesServicePublisher;
+import com.example.demo.category_service_project.AggregatingPublisher;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SimulateFullRunTest {
 
   @Autowired
-  AllCategoriesServicePublisher target;
+  AggregatingPublisher target;
 
   /**
    * This is to simulate an entire publishing of all 3 articles. Each article belongs to 2 or more categories. Each user contains 1 category (to reduce on confusion)

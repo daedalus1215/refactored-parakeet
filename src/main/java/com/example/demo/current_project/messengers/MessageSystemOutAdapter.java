@@ -1,4 +1,4 @@
-package com.example.demo.current_project.Adapters;
+package com.example.demo.current_project.messengers;
 
 import com.example.demo.dependency_library.entities.ArticleEntity;
 import com.example.demo.dependency_library.entities.UserEntity;

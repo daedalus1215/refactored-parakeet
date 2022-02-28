@@ -1,7 +1,7 @@
 package com.example.demo.current_project.services;
 
-import com.example.demo.current_project.Adapters.MessageInterface;
-import com.example.demo.current_project.Adapters.MessageSystemOutAdapter;
+import com.example.demo.current_project.messengers.MessageInterface;
+import com.example.demo.current_project.messengers.MessageSystemOutAdapter;
 import com.example.demo.current_project.daos.UserDAO;
 import com.example.demo.current_project.daos.UserDAOInterface;
 import com.example.demo.dependency_library.entities.ArticleEntity;

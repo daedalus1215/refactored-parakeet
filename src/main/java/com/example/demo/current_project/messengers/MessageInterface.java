@@ -1,4 +1,4 @@
-package com.example.demo.current_project.Adapters;
+package com.example.demo.current_project.messengers;
 
 /**
  * Not sure how adaptive this needs to be. This seems to be a decent balance for the moment.

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * topic notification mechanism.
  */
 @Component
-public class AllCategoriesServicePublisher {
+public class AggregatingPublisher {
 
   @Autowired
   DaoAttackArticlePublisher daoAttackArticlePublisher;
